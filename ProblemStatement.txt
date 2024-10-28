@@ -1,0 +1,51 @@
+DEVELOP A JAVA APPLICATION TO PERFORM THE BELOW-MENTIONED TASK BY FOLLOWING THE BELOW-MENTIONED GUIDELINES.
+
+TASK:
+Perform an operation to generate the FACTORIAL of a particular number.
+
+GUIDELINES:
+1. Define a package named com.qualizeal.javaapp08.operation in the application.
+2. Define a class named FactorialNumber in the above-mentioned package.
+3. Define a method named defineFactorialNumber and return the definition of a Factorial number as a text.
+4. Define a method named generateFactorialNumber in the above-mentioned class for performing the task.
+5. The above-mentioned method:
+	a) must be accessible to any class from any package.
+	b) must contain one parameter of number type with a range from 0 to 2,147,483,647.
+	c) must perform the task and return the result as a number with a range from 0 to 2,147,483,647.
+	d) must perform the task without using recursion.
+	e) must return -1 if the value passed as a parameter is a negative number.
+	f) must return -2 if the value passed as a parameter is 0.
+	
+IMPORTANT NOTE:
+1. Use the program class named App available in the application to execute your code.
+2. Sample inputs with expected outputs are given below for your reference which you can use to validate your logic in the code. 
+3. Once finished with the tasks, run the unit tests to verify if you have completed the tasks successfully as well as followed the guidelines.
+4. You can use print statements for your reference while writing the code but do remember to remove them before submitting the code.
+5. Only the task and implementation of guidelines are considered for evaluation and not the code in the program class.
+6. Once finished with the application development, push the code back to the remote repository from where you have cloned the application.
+7. Do remember to push your code to the branch with your name and not the main branch.
+
+SAMPLE INPUT 1:
+1
+EXPECTED OUTPUT 1:
+1
+
+SAMPLE INPUT 2:
+5
+EXPECTED OUTPUT 2:
+120
+
+SAMPLE INPUT 3:
+10
+EXPECTED OUTPUT 3:
+3628800
+
+SAMPLE INPUT 4:
+-10
+EXPECTED OUTPUT 4:
+-1
+
+SAMPLE INPUT 5:
+0
+EXPECTED OUTPUT 5:
+-2
